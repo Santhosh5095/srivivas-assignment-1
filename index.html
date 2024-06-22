@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Srinivas Shankar</h1>
+            <nav>
+                <ul>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="bio">
+        <div class="container">
+            <h2>Bio</h2>
+            <div class="bio-content">
+                <img src="img/pic-1.jpg" alt="Santhosh pic">
+                <p>I'm Srinivas,I completed high school at "Sri Swami Vivekanand" and I completed intermediate college at "Sri Akshara Junior College" 
+                    and I currently pursing B.Tech in computer science and engineering at kakinada institute of technology and science,expected graduation 2025.
+                    To pursue a challenging career in an esteemed organisation where i can utilize and enchance my knowledge and skills for the development of
+                    both the organizatin and myself.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <div class="container">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Listening music</li>
+                <li>Reading books</li>
+                <!-- Add more hobbies as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <p id="status-message"></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
